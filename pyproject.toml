@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycad24-plugin-core-line"
+version = "0.1.0"
+dependencies = [
+    # Add dependencies here
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
